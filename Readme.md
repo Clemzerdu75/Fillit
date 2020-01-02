@@ -18,8 +18,9 @@ This programm will take a file as parameter, which contains a list of Tetriminos
 
 ## How to use it
 
-run: `make`
-run: `./fillit ./examples/TEST_FILE_NAME`
+Run: `make`
+
+Run: `./fillit ./examples/TEST_FILE_NAME`
 
 **NB:** 
 You have 3 example files:
