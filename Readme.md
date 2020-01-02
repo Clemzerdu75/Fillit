@@ -1,4 +1,4 @@
-#Fillit
+# FILLIT
 
 Fillit is the 3rd 42 C project.
 
@@ -6,14 +6,14 @@ This programm will take a file as parameter, which contains a list of Tetriminos
 
 (Group project carried out with [pommedepain](https://github.com/pommedepain))
 
-##SUMMARY
+## SUMMARY
 
 - What is Fillit ?
 - How to use it
 
 ## What is Fillit ?
 
-[](./img/fillit.gif)
+![Fillit Demo](./img/fillit.gif)
 
 
 ## How to use it
