@@ -19,9 +19,9 @@ This programm will take a file as parameter, which contains a list of Tetriminos
 
 - The expected files need to have a list of "tetriminos", separate by a white line. A tetriminos need to have 4 lines of 4 characters. It can only contains "." and "#".
 
-"." represents empty spaces.
+- "." represents empty spaces.
 
-"#" represents one blocks of the tetriminos.
+- "#" represents one blocks of the tetriminos.
 
 - A tetriminos is a classic piece of Tetris composed of 4 blocks. Each block of a tetriminos ust touch at least one other block of any of his 4 sides (up, down, left, right).
 
