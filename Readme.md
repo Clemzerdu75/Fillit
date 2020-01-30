@@ -9,30 +9,30 @@ This programm will take a file as parameter, which contains a list of Tetriminos
 ## SUMMARY
 
 - What is Fillit ?
-- How to use it
+- Usage
 
 ## What is Fillit ?
 
 ![Fillit Demo](./img/fillit.gif)
 
-- Fillit is a programms that parse a file, see if is valid and use backtracking to find the best solution possible to sorts the data contained in the file
+- Fillit is a programme that parses a file, checks its validity and uses backtracking to find the best solution possible to sort the data contained within
 
-- The expected files need to have a list of "tetriminos", separate by a white line. A tetriminos need to have 4 lines of 4 characters. It can only contains "." and "#".
+- The expected file needs to have a list of "tetriminos", separated by a white line. A tetriminos needs to have 4 lines of 4 characters. It can only contain "." and "#".
 
 - "." represents empty spaces.
 
-- "#" represents one blocks of the tetriminos.
+- "#" represents one block of tetriminos.
 
-- A tetriminos is a classic piece of Tetris composed of 4 blocks. Each block of a tetriminos ust touch at least one other block of any of his 4 sides (up, down, left, right).
+- A tetriminos is a classic piece of Tetris composed of 4 blocks. Each block of a tetriminos needs to touch at least one side of another block (up, down, left, right).
 
-- For the result Tetriminos are ordered by they apparition order in the file. Among all the possible candidates for the smallest square, the one where Tetriminos are placed on their most upper-left position will be choosen.
+- The resulted grid is ordered by tetriminos apparition in the file. Amongst all the possibilities where a tetriminos can be placed,the most upper-left position will always be favoured.
 
-- To identify each tetrimino in the square solution a capital letter is assign to each, starting with 'A' and increasing for each new terimino. ( So the maximum numbers of tetriminos in a file is 26).
+- To visually identify tetriminos in the final square solution, a capital letter is assigned to each of them, starting with 'A' and increasing( Following this logic, there cannot be more than 26 tetriminos).
 
-- If a file is invalid the programm will returns "error" if no files are provided it will returns "usage: ./fillit file_descriptor" 
+- If a file is invalid the programme will return "error". If no file is provided, it will return its "usage: ./fillit file_descriptor" 
 
 
-## How to use it
+## Usage
 
 Run: `make`
 
@@ -40,7 +40,7 @@ Run: `./fillit ./examples/TEST_FILE_NAME`
 
 **NB:** 
 You have 3 example files:
-- A little with 4 tetriminos
-- A big with 26 tetriminos (the maximum)
-- An invalid with bad tetrminos and indentation
+- A little one with 4 tetriminos
+- A big one with 26 tetriminos (the maximum allowed)
+- An invalid one with a bad tetrminos description and some indentation
 
